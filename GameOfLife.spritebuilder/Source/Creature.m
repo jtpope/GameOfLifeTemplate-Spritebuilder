@@ -11,7 +11,7 @@
 @implementation Creature
 // since we made Creature inherit from CCSprite, 'super' below refers to CCSprite
 - (instancetype)initCreature{
-	self = [super initWithImageNamed:@"GameOfLifeAssests/bubble.png"];
+	self = [super initWithImageNamed:@"GameOfLifeAssests/Assets/bubble.png"];
 	if (self){
 		self.isAlive = NO;
 	}
